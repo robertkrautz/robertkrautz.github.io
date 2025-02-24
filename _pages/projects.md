@@ -2,10 +2,10 @@
 layout: page
 title: Research
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: Current projects in the TGR lab.
 nav: true
 nav_order: 2
-display_categories: [work, fun]
+display_categories: [work]
 horizontal: false
 ---
 

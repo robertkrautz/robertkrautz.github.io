@@ -1,81 +1,20 @@
 ---
 layout: page
-title: project 1
-description: with background image
-img: assets/img/12.jpg
+title: Establish novel protocols to profile the binding of transcription factors or histone complexes
+description: Project with background image.
+img: assets/img/20250224_DamID.png
 importance: 1
 category: work
 related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
+<b>DNA adenine methylation identification</b> (DamID) has been developed in 2000 (van Steensel et al., 2000; van Steensel et al., 2000) and has garnered much attention as a robust and simple method to <b>profile DNA-binding sites of virtually any DNA- or chromatin-interacting protein</b>, including transcription factors, RNA Polymerase II or even histone modifier complexes (Southall et al., 2013; Cheetham et al., 2018; Marshall et al., 2017). In this fashion, DamID can <b>replace many of the standard methods</b> to characterize gene expression and regulation such as RNAseq or ChIPseq. However, despite its great potential, high reproducibility and flexible set-up, only few groups and laboratories have actually implemented the technology. This is partly due to the length of the protocol and the need for establishing the technique in the laboratory as commercial DamID-assays are not available. In parallel, the available software to analyze DamID data is outdated or insufficient to cope with standard replicate numbers (Marshall et al., 2015; Gutierrez-Triana et al., 2016; Vázquez-Marín et al, 2019).
+Hence, while a parallel project will develop state-of-the-art analytical software for DamID data, the here outlined project will address the length of the DamID protocol to <b>provide a short, streamlined version</b> reliant on exclusively commercially available reagents. By relying on biochemistry otherwise employed in ATACseq protcols, DamID will simultaneously <b>become more sensitive</b> promising a higher signal-to-noise ratio and thus <b>detection of even rare binding events</b>.
+<br>
+Together these endeavors will make DamID a completely open-access, easily implemented, sensitive and affordable technique that with high likelihood will be the <b>alternative of choice for commercially available assays</b>.
+<br>
+For this, the project will cover a <b>wide range of techniques</b> starting from 1) molecular biology (transformation and propagation of bacteria, plasmid extraction), 2) human cell culture (cell propagation, plasmid electroporation), 3) next-generation sequencing library preparation and 4) in house, hands-on sequencing (ATACseq, DamID) culminating in the 5) detailed analysis of the acquired data. <b>No particular skills</b> are required as everything can be learned during the project. The only requirement is <b>excitement</b>.
+<br>
+While we will initially use plasmids encoding for ATF4, a transcription factor involved in integrated stress responses, the project can also be expanded to give <b>space to creativity</b> by the respective Master student to study other factors involved in gene regulation. Similarly, the amount of computational, statistical and analytical work can be modified dependent on the students interest and preferences.
+<br>
+The project will take place in the lab of Associate Professor Robin Andersson with me as supervisor. The lab is part of the Section for Computational and RNA Biology at the Department for Biology, University of Copenhagen. Collaborations with the lab of Jelle van den Ameele at the University of Cambridge will strengthen the project further.
