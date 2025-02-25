@@ -17,4 +17,8 @@ profiles:
     image: IMG_8917.JPG
     content: about_xiyin.md
     image_circular: false # crops the image to make it circular
+  - align: left
+    image: 20250225_avaters.jpg
+    content: about_member.md
+    image_circular: false # crops the image to make it circular
 ---

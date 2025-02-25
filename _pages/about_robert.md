@@ -9,4 +9,4 @@
   </div>
 </div>
 
-Robert Krautz acquired a Diploma degree at the Julius-Maximilians University in Würzburg, obtained his PhD in Molecular Biology at Stockholm University, and worked as a PostDoc at the Gurdon Institute in Cambridge, UK, before coming to Denmark. He joined the [Andersson Lab](https://anderssonlab.org) in 2019 as a PostDoc combining both his experimental and computational training. In 2024, Robert was promoted to Assistant Professor and received a Villum Young Investigator grant to start his own group at the University of Copenhagen.
+Robert acquired a Diploma degree at the Julius-Maximilians University in Würzburg, obtained his PhD in Molecular Biology at Stockholm University, and worked as a PostDoc at the Gurdon Institute in Cambridge, UK, before coming to Denmark. He joined the [Andersson Lab](https://anderssonlab.org) in 2019 as a PostDoc combining both his experimental and computational training. In 2024, Robert was promoted to Assistant Professor and received a Villum Young Investigator grant to start his own group at the University of Copenhagen.
