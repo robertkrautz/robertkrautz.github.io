@@ -13,7 +13,7 @@ horizontal: false
 </div>
 
 <div class="caption">
-  Vision of the Tissue Gene Regulation Lab. We aim to decipher networks of functionally interacting enhancers and promoters by understanding the genomic and - importantly - spatial distribution of their activities throughout tissues such as the here shown model epithelium. Only mock data shown.
+  <b>Vision of the Tissue Gene Regulation Lab.</b> We aim to decipher networks of functionally interacting enhancers and promoters by understanding the genomic & - importantly - spatial distribution of their activities throughout tissues such as this model epithelium. Only mock data shown.
 </div>
 
 The vision of the <b>Tissue Gene Regulation Lab</b> is to decipher mechanisms involved in regulating gene expression and predict the activation and interaction of enhancers and promoters. However, we do not only want to resolve these activities and interactions spatially & temporarily on the genomic scale, but also on the level of spatial & temporal dynamics of entire tissues.
@@ -29,7 +29,14 @@ We understand <b>tissue development</b> as the <b>sum of all gene regulatory dec
 5.	The <b>interactions</b> with other elements and target genes of the disrupted gene regulatory element (transcriptional networks).
 6.	The extent to what target gene(s) are <b>misexpressed</b>.
 7.	The relationship between the affected target gene(s), cell type(s) and the <b>functional, histological and morphological changes</b>.
+
+---
+
+By combining our experimental and computational experience we embark on solving the first 6 points, while collaborating with other research groups and clinicians to make number 7 possible, too. For this we rely mainly on 3 high-throughput methods:
 <br>
+1.	Single cell technologies for capturing gene expression, chromatin accessibility and other modalities.
+2.	DNA adenine methytransferase identification (DamID) to profile chromatin bound proteins in vivo and in vitro.
+3.	Cap analysis of gene expression (CAGE) based on cap-trapping of 5’-m7G-capped RNA species – namely messenger and enhancer RNAs – to discern activated enhancers and promoters.
 
 <div class="p-2">
     {% include figure.liquid loading="eager" path="assets/img/20250225_figure2_v1.png" %}
@@ -39,12 +46,4 @@ We understand <b>tissue development</b> as the <b>sum of all gene regulatory dec
   Our primary set of tools to profile single cell gene expression and chromatin accessibility, enhancer and promoter activities as well as genome-wide binding patterns of chromatin associated proteins via DamID.
 </div>
 
----
-
-By combining our experimental and computational experience we embark on solving the first 6 points, while collaborating with other research groups and clinicians to make number 7 possible, too. For this we rely mainly on 3 high-throughput methods:
-<br>
-1.	Single cell technologies for capturing gene expression, chromatin accessibility and other modalities.
-2.	DNA adenine methytransferase identification (DamID) to profile chromatin bound proteins in vivo and in vitro.
-3.	Cap analysis of gene expression (CAGE) based on cap-trapping of 5’-m7G-capped RNA species – namely messenger and enhancer RNAs – to discern activated enhancers and promoters.
-<br>
 In the future, we will also make use of spatial transcriptomics and high-resolution microscropy.
